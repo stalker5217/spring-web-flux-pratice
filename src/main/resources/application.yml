@@ -1,0 +1,6 @@
+spring:
+  data:
+    cassandra:
+      keyspace-name: postKeySpace
+      schema-action: recreate_drop_unused
+      local-datacenter: datacenter1
